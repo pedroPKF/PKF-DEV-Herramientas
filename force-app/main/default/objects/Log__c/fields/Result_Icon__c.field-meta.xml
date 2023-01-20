@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Result_Icon__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( 
+CASE( TEXT(Result__c) , 
+&quot;Success&quot;, &quot;/img/msg_icons/confirm24.png&quot;, 
+&quot;Warning&quot;, &quot;/img/msg_icons/warning24.png&quot;, 
+&quot;Error&quot;, &quot;/img/msg_icons/error24.png&quot;, 
+&quot;/s.gif&quot;), 
+&quot;Result&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Result Icon</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

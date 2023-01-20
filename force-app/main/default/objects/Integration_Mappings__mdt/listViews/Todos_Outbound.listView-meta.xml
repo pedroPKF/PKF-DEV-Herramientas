@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todos_Outbound</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>Field_Type__c</columns>
+    <columns>Object__c</columns>
+    <columns>Salesforce_Field__c</columns>
+    <columns>Salesforce_Field_Type__c</columns>
+    <columns>External_ID__c</columns>
+    <columns>Inbound__c</columns>
+    <columns>Outbound__c</columns>
+    <columns>Lookup_SObject__c</columns>
+    <columns>Lookup_SObject_External_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Outbound__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Todos Outbound</label>
+</ListView>
